@@ -14,7 +14,6 @@ package duvidas;
 public abstract class Veiculo {
 
     public Veiculo(){
-        this.ligado = false;
     }
 
     public Veiculo(Boolean ligado) {
