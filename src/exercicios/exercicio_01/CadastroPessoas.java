@@ -12,7 +12,6 @@ public class CadastroPessoas {
         pessoas.add(pessoa);
     }
     public void imprimeCadastro(){
-
         for (Pessoa pessoa: pessoas){
             System.out.println(pessoa.getClass());
             System.out.println(pessoa.imprimeDados());

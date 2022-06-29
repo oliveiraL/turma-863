@@ -2,7 +2,7 @@ package exercicios.exercicio_01;
 
 import java.util.Date;
 
-public class Gerente extends Funcionario{
+public class Gerente extends Funcionario {
 
     private String area;
 
@@ -21,5 +21,10 @@ public class Gerente extends Funcionario{
     @Override
     public Float calculaImposto() {
         return salario * 0.05F;
+    }
+
+    @Override
+    public Integer getIdade() {
+        return 1;
     }
 }

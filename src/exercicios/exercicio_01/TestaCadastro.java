@@ -31,6 +31,7 @@ public class TestaCadastro {
                 2000F,
                 "TI");
 
+        Cachorro cachorro = new Cachorro();
 
         CadastroPessoas cadastroPessoas = new CadastroPessoas();
         cadastroPessoas.cadastraPessoa(cliente);
@@ -39,5 +40,16 @@ public class TestaCadastro {
         cadastroPessoas.cadastraPessoa(gerente);
 
         cadastroPessoas.imprimeCadastro();
+
+
+
+
+        CadastroInformacoes cadastroInformacoes = new CadastroInformacoes();
+        cadastroInformacoes.cadastro(pessoa);
+        cadastroInformacoes.cadastro(gerente);
+        cadastroInformacoes.cadastro(funcionario);
+        cadastroInformacoes.cadastro(cliente);
+        cadastroInformacoes.cadastro(cachorro);
+        cadastroInformacoes.listarInformacoes();
     }
 }

@@ -2,7 +2,7 @@ package exercicios.exercicio_01;
 
 import java.util.Date;
 
-public abstract class Pessoa {
+public abstract class Pessoa implements Informacoes{
 
     public Pessoa(String nome, Date nascimento) {
         this.nome = nome;
@@ -12,5 +12,8 @@ public abstract class Pessoa {
     protected String nome;
     protected Date nascimento;
 
-    public abstract String imprimeDados();
+    @Override
+    public Integer getIdade() {
+        return null;
+    }
 }

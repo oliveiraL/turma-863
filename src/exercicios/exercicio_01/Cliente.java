@@ -21,4 +21,14 @@ public class Cliente extends Pessoa {
     public Integer getCodigo() {
         return codigo;
     }
+
+    @Override
+    public String getNome() {
+        return null;
+    }
+
+    @Override
+    public Integer getIdade() {
+        return null;
+    }
 }

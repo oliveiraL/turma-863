@@ -21,4 +21,14 @@ public class Funcionario extends Pessoa{
     public Float calculaImposto(){
         return salario * 0.03F;
     }
+
+    @Override
+    public String getNome() {
+        return nome;
+    }
+
+    @Override
+    public Integer getIdade() {
+        return 0;
+    }
 }
