@@ -16,4 +16,9 @@ public abstract class Pessoa implements Informacoes{
     public Integer getIdade() {
         return null;
     }
+
+    @Override
+    public String toString() {
+        return imprimeDados();
+    }
 }

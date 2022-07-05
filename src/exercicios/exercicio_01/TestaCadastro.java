@@ -1,10 +1,14 @@
 package exercicios.exercicio_01;
 
+import duvidas.generico.CadastroGeral;
+
 import java.sql.Date;
 import java.time.LocalDate;
 
 public class TestaCadastro {
     public static void main(String[] args) {
+
+
         Cliente cliente = new Cliente("Lucio",
                 Date.valueOf(LocalDate.of(1995,
                         1, 1)),

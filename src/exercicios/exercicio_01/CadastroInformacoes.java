@@ -12,6 +12,8 @@ public class CadastroInformacoes {
     }
 
     public void listarInformacoes(){
+
+
         for (Informacoes info: informacoes){
             System.out.println(info.imprimeDados());
         }
