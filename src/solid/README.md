@@ -1,4 +1,4 @@
-# Os principios SOLID
+# Os principios S.O.L.I.D.
 
 S.O.L.I.D. são princípios de design que nos ajudam a desacoplar classes e aumentar a coesão entre elas, 
 de forma que passamos a organizar e estruturar melhor nosso projeto e principalmente criar estruturas de códigos de fácil compreensão, 
